@@ -23,10 +23,7 @@ class Resize:
     def __call__(self, image, target):
         orig_w, orig_h = image.size
         new_h, new_w = self.size
-        
         image = TF.resize(image, self.size)
-        
-        # Scale boxes
         if len(target['boxes']) > 0:
             scale_x = new_w / orig_w
             scale_y = new_h / orig_h
