@@ -22,7 +22,6 @@ env/
 
 # Data & Outputs (too large for git)
 data/
-outputs/
 *.pth
 *.pt
 *.onnx
