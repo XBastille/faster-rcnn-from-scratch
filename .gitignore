@@ -21,10 +21,11 @@ env/
 *.swo
 
 # Data & Outputs (too large for git)
-data/
+VOCdevkit/
 *.pth
 *.pt
 *.onnx
+pascal_voc_2007.zip
 
 # Jupyter
 .ipynb_checkpoints/
