@@ -69,8 +69,6 @@ Task1_ObjectDetection/
 
 ## Demo Video
 
-https://github.com/user-attachments/assets/YOUR_VIDEO_ID
-
 > See [videos/demo.mp4](videos/demo.mp4) for real-time detection demo.
 
 ## Quick Start
