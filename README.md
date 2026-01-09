@@ -67,6 +67,12 @@ Task1_ObjectDetection/
 └── config.py            # Configuration
 ```
 
+## Demo Video
+
+https://github.com/user-attachments/assets/YOUR_VIDEO_ID
+
+> See [videos/demo.mp4](videos/demo.mp4) for real-time detection demo.
+
 ## Quick Start
 
 ### Setup
@@ -74,6 +80,13 @@ Task1_ObjectDetection/
 ```bash
 pip install -r requirements.txt
 python data/download_voc.py
+```
+
+### Download Pretrained Weights
+
+```bash
+# Download trained model (166 MB)
+bash download_weights.sh
 ```
 
 ### Training
