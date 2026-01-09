@@ -143,6 +143,24 @@ python export_torchscript.py --checkpoint outputs/best.pth
 - tqdm
 - Pillow
 
+## Dataset
+
+**PASCAL VOC 2007** — 20 object classes, 9,963 images
+- Train: 2,501 images
+- Val: 2,510 images  
+- Test: 4,952 images
+- [Official Website](https://www.robots.ox.ac.uk/~vgg/projects/pascal/VOC/voc2007/index.html)
+
+## References
+
+```bibtex
+@misc{pascal-voc-2007,
+  author       = "Everingham, M. and Van~Gool, L. and Williams, C. K. I. and Winn, J. and Zisserman, A.",
+  title        = "The {PASCAL} {V}isual {O}bject {C}lasses {C}hallenge 2007 {(VOC2007)} {R}esults",
+  howpublished = "http://www.pascal-network.org/challenges/VOC/voc2007/workshop/index.html"
+}
+```
+
 ## License
 
 MIT
