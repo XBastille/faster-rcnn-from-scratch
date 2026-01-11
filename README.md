@@ -2,7 +2,7 @@
 
 A custom **Faster R-CNN with FPN** implementation trained entirely from scratch on PASCAL VOC 2007.
 
-![Demo](outputs/visualizations/result.jpg)
+![Demo](outputs/visualizations/result_2.jpg)
 
 ## Results
 
@@ -175,4 +175,5 @@ python export_torchscript.py --checkpoint outputs/best.pth
 ## License
 
 MIT
+
 
